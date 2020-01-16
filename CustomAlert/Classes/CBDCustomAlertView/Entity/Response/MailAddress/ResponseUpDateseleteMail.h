@@ -1,0 +1,14 @@
+//
+//  ResponseUpDateseleteMail.h
+//  CarBaDa
+//
+//  Created by Vic_Li on 16/3/31.
+//  Copyright © 2016年 wyj. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface ResponseUpDateseleteMail : NSObject
+@property (nonatomic, copy)NSString *mailId;
+@property (nonatomic, copy)NSString *memberId;
+@end
