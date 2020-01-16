@@ -31,7 +31,7 @@ TODO: 弹窗集合
   s.ios.deployment_target = '8.0'
 
   # s.source_files = 'CustomAlert/Classes/**/*'
-  s.vendored_frameworks = "CustomAlert/CBDCustomAlertView.framework"
+  s.vendored_frameworks = "CustomAlert/CustomAlert/CBDCustomAlertView.framework"
   
   # s.resource_bundles = {
   #   'CustomAlert' => ['CustomAlert/Assets/*.png']
