@@ -1,6 +1,0 @@
-framework module CBDEntity {
-  umbrella header "CBDEntity.h"
-
-  export *
-  module * { export * }
-}
