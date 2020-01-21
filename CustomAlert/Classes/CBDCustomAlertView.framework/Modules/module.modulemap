@@ -1,6 +1,0 @@
-framework module CBDCustomAlertView {
-  umbrella header "CBDCustomAlertView.h"
-
-  export *
-  module * { export * }
-}
