@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomAlert'
-  s.version          = '0.5.1'
+  s.version          = '0.5.2'
   s.summary          = '弹窗集合'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: 弹窗集合
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JJWOW' => 'junjie.wang@ly.com' }
-  s.source           = {  :http => 'https://github.com/JJwow/CustomAlert/raw/master/CustomAlert/Classes/CBDCustomAlertView.framework.zip', :tag => s.version.to_s }
+  s.source           = {  :http => 'https://github.com/JJwow/CustomAlert/raw/master/CustomAlert/Classes/CBDCustomAlertView.framework.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
