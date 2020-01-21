@@ -25,13 +25,12 @@ TODO: 弹窗集合
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JJWOW' => 'junjie.wang@ly.com' }
-  s.source           = {  :http => 'https://github.com/JJwow/CustomAlert/raw/master/CustomAlert/Classes/CBDCustomAlertView.zip' }
+  s.source           = { :git => 'https://github.com/JJWOW/CustomAlert.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.preserve_paths = 'CustomAlert/Classes/*.zip'
-  #s.source_files = 'CustomAlert/Classes/*.zip'
-  #s.vendored_frameworks = "CustomAlert/CBDCustomAlertView.framework"
+  #s.source_files = 'CustomAlert/Classes/CBDCustomAlertView.framework'
+  s.vendored_frameworks = 'CustomAlert/CBDCustomAlertView.framework'
   
   # s.resource_bundles = {
   #   'CustomAlert' => ['CustomAlert/Assets/*.png']
