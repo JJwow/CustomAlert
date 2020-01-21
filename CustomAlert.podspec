@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomAlert'
-  s.version          = '0.5.5'
+  s.version          = '0.6.0'
   s.summary          = '弹窗集合'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: 弹窗集合
 
   s.ios.deployment_target = '8.0'
   #s.source_files = 'CustomAlert/Classes/CBDCustomAlertView.framework'
-  s.vendored_frameworks = 'CustomAlert/CBDCustomAlertView.framework'
+  s.vendored_frameworks = 'CustomAlert/Classes/CBDCustomAlertView.framework'
   
   # s.resource_bundles = {
   #   'CustomAlert' => ['CustomAlert/Assets/*.png']
